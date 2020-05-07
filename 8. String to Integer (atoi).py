@@ -11,7 +11,6 @@ class Solution:
         m = re.match(regexp, str)
         if m:
             groupdict = m.groupdict()
-            print(groupdict)
             num = int(groupdict['sign'] + groupdict['num'])
             num = min(self.INT_MAX, num) if num >= 0 else max(self.INT_MIN, num)
             before_num = groupdict['before_num']
