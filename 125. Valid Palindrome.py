@@ -8,8 +8,3 @@ class Solution:
         """
         filterString = [char.lower() for char in s if char.isalnum()] 
         return filterString[::-1] == filterString
-
-
-sol = Solution()
-res = sol.isPalindrome("race  car")
-print(res)
