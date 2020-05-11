@@ -28,6 +28,10 @@ class Solution:
         return longestPalidrome
     
     def longestPalindrome(self, s: str) -> str:
+        """
+        Given a string s, find the longest palindromic substring in s.
+        You may assume that the maximum length of s is 1000.
+        """
         longestPalidrome = ''
         for index in range(len(s)):
             currentPalidrome = self.longestPalidromeAtIndex(index, s)
