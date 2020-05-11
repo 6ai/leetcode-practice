@@ -1,5 +1,6 @@
 # 3. Longest Substring Without Repeating Characters
 
+# O(n^2) time | O(1) space
 class Solution:
     def isPalidrome(self, s) -> bool:
         return s[::-1] == s
