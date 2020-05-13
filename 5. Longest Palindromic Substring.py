@@ -1,4 +1,4 @@
-# 3. Longest Substring Without Repeating Characters
+# 5. Longest Palindromic Substring
 
 # O(n^2) time | O(n) space
 class Solution:
